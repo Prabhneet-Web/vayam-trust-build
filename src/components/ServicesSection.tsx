@@ -11,33 +11,33 @@ const ServicesSection = () => {
   const services = [
     {
       icon: Compass,
-      title: "Architectural Planning",
-      description: "Custom residential & commercial designs with 2D/3D visualization and Vastu compliance.",
+      title: "MDDA Approved Maps",
+      description: "Official map approvals and documentation compliant with MDDA regulations.",
+    },
+    {
+      icon: Building2,
+      title: "Vastu-Based Planning",
+      description: "Traditional Vastu principles integrated with modern architectural design.",
     },
     {
       icon: HardHat,
-      title: "Civil Construction",
-      description: "Complete construction services from foundation to finishing with quality materials.",
+      title: "Civil & Architectural Works",
+      description: "Complete civil construction services with qualified architects & engineers.",
     },
     {
       icon: PaintBucket,
-      title: "Interior & Exterior Design",
+      title: "Interior & Exterior",
       description: "Modern interiors and stunning facades that reflect your style and personality.",
+    },
+    {
+      icon: Key,
+      title: "Construction",
+      description: "End-to-end construction services from foundation to finishing with quality materials.",
     },
     {
       icon: Calculator,
       title: "Estimation & Costing",
       description: "Accurate project estimates and budgeting to ensure no surprises along the way.",
-    },
-    {
-      icon: Building2,
-      title: "Structural Design",
-      description: "Safe and efficient structural engineering for buildings of all scales.",
-    },
-    {
-      icon: Key,
-      title: "Turnkey Projects",
-      description: "Complete project delivery from concept to keys—hassle-free construction experience.",
     },
   ];
 

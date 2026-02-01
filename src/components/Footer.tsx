@@ -1,13 +1,14 @@
 import { Phone, Mail, MapPin, Instagram, ExternalLink } from "lucide-react";
+import logo from "@/assets/logo.jpg";
 
 const Footer = () => {
   const services = [
-    "Architectural Planning",
-    "Civil Construction",
-    "Interior Design",
+    "MDDA Approved Maps",
+    "Vastu-Based Planning",
+    "Civil & Architectural Works",
+    "Interior & Exterior",
+    "Construction",
     "Estimation & Costing",
-    "Structural Design",
-    "Turnkey Projects",
   ];
 
   const quickLinks = [
@@ -24,14 +25,12 @@ const Footer = () => {
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-accent-foreground font-bold text-lg">VV</span>
-              </div>
-              <div>
-                <p className="font-bold text-sm leading-tight">Vayam Vishwakarma</p>
-                <p className="text-primary-foreground/70 text-xs">Designs & Innovations</p>
-              </div>
+            <div className="mb-4">
+              <img 
+                src={logo} 
+                alt="Vayam Vishwakarma Designs & Innovations" 
+                className="h-16 w-auto object-contain bg-white rounded-lg p-2"
+              />
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed mb-4">
               Building trust through quality construction and innovative architectural solutions in Dehradun.

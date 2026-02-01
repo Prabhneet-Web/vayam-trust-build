@@ -41,12 +41,13 @@ const AboutSection = () => {
               Building Excellence Since Day One
             </h2>
             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-              <strong className="text-foreground">Vayam Vishwakarma Designs & Innovations Pvt Ltd</strong> is 
-              a trusted name in architecture and construction in Dehradun. We combine traditional 
-              Vastu principles with modern design innovation to create spaces that inspire.
+              <strong className="text-foreground">Vayam Vishwakarma Designs & Innovations Pvt Ltd</strong>, led by 
+              <strong className="text-foreground"> Ar. Akshay Raturi</strong>, is a trusted name in architecture 
+              and construction in Dehradun. We combine traditional Vastu principles with modern design 
+              innovation to create spaces that inspire.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              Our team of qualified architects, engineers, and craftsmen work together to deliver 
+              Our team of well-qualified architects and engineers work together to deliver 
               projects that exceed expectations—on time and within budget. From initial concept 
               to final handover, we're with you every step of the way.
             </p>
